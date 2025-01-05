@@ -1,4 +1,3 @@
-```markdown
 # SynthVox 🎤
 
 **SynthVox** is a lightweight and efficient Python package for voice cloning and text-to-speech (TTS) synthesis. Built on state-of-the-art TTS models, SynthVox allows you to clone voices, generate speech from text, and create personalized voice experiences with ease.
@@ -107,4 +106,3 @@ If you have any questions, issues, or feature requests, please open an issue on 
 If you find SynthVox useful, please consider starring the repository to show your support!
 
 [![GitHub stars](https://img.shields.io/github/stars/elee02/synthvox?style=social)](https://github.com/elee02/synthvox)
-```
