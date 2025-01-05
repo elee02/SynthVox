@@ -41,10 +41,10 @@ dependencies = [
 Homepage = "https://github.com/elee02/SynthVox"
 Documentation = "https://github.com/elee02/SynthVox#readme"
 Repository = "https://github.com/elee02/SynthVox"
-Bug Tracker = "https://github.com/elee02/SynthVox/issues"
+Bug_Tracker = "https://github.com/elee02/SynthVox/issues"
 
 [project.scripts]
-voice-clone = "SynthVox.cli:main"
+synthvox = "SynthVox.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
