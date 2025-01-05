@@ -75,7 +75,7 @@ synthvox speak --text "Hello, world!" --output output_speech.wav
 
 ## Documentation 📚
 
-For detailed documentation, including advanced usage and API reference, visit the [SynthVox Documentation](https://github.com/yourusername/synthvox#readme).
+For detailed documentation, including advanced usage and API reference, visit the [SynthVox Documentation](https://github.com/elee02/synthvox#readme).
 
 ---
 
@@ -100,7 +100,7 @@ SynthVox is released under the MIT License. See [LICENSE](LICENSE) for details.
 
 ## Support 💬
 
-If you have any questions, issues, or feature requests, please open an issue on [GitHub](https://github.com/yourusername/synthvox/issues).
+If you have any questions, issues, or feature requests, please open an issue on [GitHub](https://github.com/elee02/synthvox/issues).
 
 ---
 
@@ -108,7 +108,5 @@ If you have any questions, issues, or feature requests, please open an issue on 
 
 If you find SynthVox useful, please consider starring the repository to show your support!
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/synthvox?style=social)](https://github.com/yourusername/synthvox)
+[![GitHub stars](https://img.shields.io/github/stars/elee02/synthvox?style=social)](https://github.com/elee02/synthvox)
 ```
-
----

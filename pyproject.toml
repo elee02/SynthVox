@@ -50,4 +50,4 @@ voice-clone = "SynthVox.cli:main"
 where = ["."]
 
 [tool.setuptools.package-data]
-"voice_cloning_toolkit" = ["data/*", "models/*"]
+"SynthVox" = ["data/*", "models/*"]
