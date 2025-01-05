@@ -1,7 +1,11 @@
+dist
+build
+venv
+.venv
 *.i
 *.ii
 *.gpu
 *.ptx
 *.cubin
 *.fatbin
-dist
+*.egg-info
