@@ -1,1 +1,12 @@
 SynthVox/models/kokoro-v0_19.onnx filter=lfs diff=lfs merge=lfs -text
+SynthVox/models/voices/af_bella.pt filter=lfs diff=lfs merge=lfs -text
+SynthVox/models/voices/af_sky.pt filter=lfs diff=lfs merge=lfs -text
+SynthVox/models/voices/bf_emma.pt filter=lfs diff=lfs merge=lfs -text
+SynthVox/models/voices/bf_isabella.pt filter=lfs diff=lfs merge=lfs -text
+SynthVox/models/voices/bm_george.pt filter=lfs diff=lfs merge=lfs -text
+SynthVox/models/voices/af_nicole.pt filter=lfs diff=lfs merge=lfs -text
+SynthVox/models/voices/af.pt filter=lfs diff=lfs merge=lfs -text
+SynthVox/models/voices/af_sarah.pt filter=lfs diff=lfs merge=lfs -text
+SynthVox/models/voices/am_adam.pt filter=lfs diff=lfs merge=lfs -text
+SynthVox/models/voices/am_michael.pt filter=lfs diff=lfs merge=lfs -text
+SynthVox/models/voices/bm_lewis.pt filter=lfs diff=lfs merge=lfs -text
