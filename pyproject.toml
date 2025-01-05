@@ -1,0 +1,53 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "SynthVox"
+version = "0.1.0"
+description = "A Python package for voice cloning using lightweight TTS models."
+authors = [
+    { name = "Rasulov Elyor", email = "elyorrasulov1822@gmail.com" }
+]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Multimedia :: Sound/Audio :: Speech",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "torch>=1.10.0",
+    "torchaudio>=0.10.0",
+    "numpy>=1.21.0",
+    "onnxruntime>=1.10.0",
+    "librosa>=0.9.0",
+    "resemblyzer>=0.0.1",
+    "scipy>=1.7.0",
+    "tqdm>=4.62.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/elee02/SynthVox"
+Documentation = "https://github.com/elee02/SynthVox#readme"
+Repository = "https://github.com/elee02/SynthVox"
+Bug Tracker = "https://github.com/elee02/SynthVox/issues"
+
+[project.scripts]
+voice-clone = "SynthVox.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+
+[tool.setuptools.package-data]
+"voice_cloning_toolkit" = ["data/*", "models/*"]
